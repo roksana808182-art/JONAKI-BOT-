@@ -6,7 +6,7 @@ const axios = require('axios');
 const app = express();
 app.use(bodyParser.json());
 
-const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
+const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;"61580287528644"
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
